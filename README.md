@@ -1,6 +1,6 @@
 # GitHub public roadmap
 
-In this repository, you can find the [official GitHub public product roadmap](https://github.com/github/roadmap/projects/1). Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Join the discussion over on the [GitHub Community Forum](https://github.community/) or share your feedback via the [Share feedback](https://support.github.com/contact/feedback) page. 
+In this repository, you can find the [official GitHub public product roadmap](https://github.com/github/roadmap/projects/1). Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Join the discussion over on the [GitHub Community Forum](https://github.community/) or share your feedback via the [GitHub public feedback discussions](https://github.com/github/feedback/discussions) page. 
 
 The roadmap repository is for communicating GitHub’s roadmap. Existing issues are currently read-only, and we are locking conversations, as we get started. Interaction limits are also in place to ensure issues originate from GitHub. We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of GitHub products and features. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through this [Share feedback](https://support.github.com/contact/feedback?category=other&subject=GitHub+public+roadmap) page.
 
@@ -16,11 +16,13 @@ Every item on the roadmap is an issue, with a label that indicates each of the f
 
 - One or more **product SKU** labels that indicate which product SKUs we expect the feature to be available in. For a list of current product SKUs, see below.
 
-- One or more **deployment models** (cloud and/or server). Where not stated, features will generally come out cloud first, and follow on server at or soon after GA.
+- One or more **deployment models** (cloud, server, and/or ae). Where not stated, features will generally come out Cloud first, and follow on Server and GHAE at or soon after GA.
+
+- Once a feature is delivered, the **shipped** label will be applied to the roadmap issue and the issue will be closed with a comment linking to the relevant [Changelog](https://github.blog/changelog/) post.
 
 ## Release phases
 
-Every product or feature goes through a set of release phases, from early testing to general availability.
+Release phases indicate the stages that the product or feature goes through, from early testing to general availability.
 
 - **alpha:** *Primarily for testing and feedback*\
 Limited availability, requires pre-release agreement. Features still under heavy development, and subject to change. Not for production use, and no documentation, SLAs or support provided.
@@ -56,7 +58,7 @@ The following is a list of our current product areas:
 - **security & compliance:** Code security and compliance features
 - **admin-server:** Administrative features specific to GitHub Enterprise Server
 - **admin-cloud:** Administrative features specific to GitHub Cloud
-- **community:** Community and social features
+- **communities:** Community and social features
 - **ecosystem:** Ecosystem and API features
 - **learning:** Education and learning features
 - **insights:** Continuous learning and insights features
@@ -82,6 +84,7 @@ The following is a list of our current product SKUs.
 - **github team:** GitHub Team
 - **github enterprise:** GitHub Enterprise (Cloud and Server)
 - **github one:** GitHub One (Cloud and Server)
+- **github ae:** GitHub AE (GHAE)
 - **github advanced security:** GitHub Advanced Security (add-on to GHE)
 - **github insights:** GitHub Insights (add-on to GHE)
 - **github learning lab:** GitHub Learning Lab (add-on to GHE)
